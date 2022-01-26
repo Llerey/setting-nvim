@@ -21,8 +21,7 @@ then
 ```
 cd $HOME
 git clone https://github.com/Llerey/setting-nvim.git
-cd $HOME/setting nvim
-bash install.sh
+bash $HOME/setting-nvim/install.sh
 ```
 after these steps, the installation will begin NeoVim.
 Upon completion of the installation, launch NeoVim.
@@ -35,7 +34,7 @@ Need to install plugins.
 #In enter the command
 :PlugInstall
 #close NeoVim when installation is complete.
-:wq
+:q!
 ```
 after that, to fix all errors, you need to run the second script
 ```
